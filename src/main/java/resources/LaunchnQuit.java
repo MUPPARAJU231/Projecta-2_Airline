@@ -1,7 +1,12 @@
 package resources;
-
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
-
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,6 +18,7 @@ import org.testng.annotations.Parameters;
 public class LaunchnQuit 
 {      
 	public static WebDriver driver;
+//	public static  String screenshotsSubFolderName;
 	@BeforeMethod
 	@Parameters("browser")
 	public void launch(String nameofbrowser)
@@ -38,5 +44,26 @@ public class LaunchnQuit
 	public void quit()
 	{
 		driver.quit();
+	}
+
+	public void captureScreenShot(String fileName)
+	{
+//		if(screenshotsSubFolderName == null) 
+//		{
+		LocalDateTime myDateObj = LocalDateTime.now();
+	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("ddMMyyyyHHmmss");
+	  String  screenshotsSubFolderName = myDateObj.format(myFormatObj);
+//		}
+		
+		TakesScreenshot t1= (TakesScreenshot) driver;
+		File source=t1.getScreenshotAs(OutputType.FILE);
+		File destination=new File("./ScreenShots/"+screenshotsSubFolderName+"/"+fileName);
+		try 
+		{
+			FileUtils.copyFile(source, destination);
+		} catch (IOException e)
+		{
+			e.printStackTrace();
+		}
 	}
 }

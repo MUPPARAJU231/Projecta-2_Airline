@@ -1,16 +1,13 @@
 package Project1_Amazon.final_Project;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Amazon_SearchResult_Page 
 {
 	 WebDriver driver;
-	 
 	 @FindBy(xpath = "//span[.=\"Women's Running Shoes\"]")
 	 WebElement category;
 	 public void category_select()

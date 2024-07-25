@@ -2,8 +2,8 @@ package Project1_Amazon.final_Project;
 import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import resources.LaunchnQuit;
 import resources.Test_Data;
-
 public class TestCase02 extends  LaunchnQuit
 {
 	@Test(retryAnalyzer = resources.RetryFailed.class)

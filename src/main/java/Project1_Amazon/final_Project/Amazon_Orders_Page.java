@@ -10,7 +10,7 @@ public class Amazon_Orders_Page
 {
 	@FindBy(id="nav-orders") 
 	WebElement orders;
-	public void selectOrdersandRturns()
+	public void selectOrdersandReturns()
 	{
 		orders.click();
 	}

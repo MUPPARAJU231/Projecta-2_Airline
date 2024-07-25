@@ -1,34 +1,24 @@
 package Project1_Amazon.final_Project;
-
-import static org.testng.Assert.*;
-import java.time.Duration;
-import java.util.Arrays;
+import static org.testng.Assert.assertTrue;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
-
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.Test;
+import resources.LaunchnQuit;
+import resources.Test_Data;
 
-//@Listeners(amazon_Scenarios.Listener.class)
-public class TestCase12 //extends  LaunchnQuit//Listener
+public class TestCase12 extends  LaunchnQuit
 {
-	RemoteWebDriver driver;
-	@Test
-	public void payment() throws InterruptedException
+	@Test(retryAnalyzer =resources.RetryFailed.class)
+	public void payment() throws InterruptedException, EncryptedDocumentException, IOException
 	{
-		driver=new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.amazon.in/");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
 		Amazon_Home_Page a1=new Amazon_Home_Page(driver);
 		a1.hoverover(driver);
 		a1.signin_click();
 		Amazon_Login_Page a2=new Amazon_Login_Page(driver);
+		Test_Data ddt=new Test_Data();
+		ddt.data_fetching();
 		a2.enter_mobile();
 		a2.continue_click();
 		a2.pwd();
@@ -53,7 +43,6 @@ public class TestCase12 //extends  LaunchnQuit//Listener
 		a6.useThisAddress();
 		a6.selectCardRadioBtn();
 		a6.clickOnEnterCardDetails();
-//		Thread.sleep(1000);
 		a6.switchToIframe(driver);
 		a6.enterCardNumber();
 		a6.enterName();
@@ -64,13 +53,8 @@ public class TestCase12 //extends  LaunchnQuit//Listener
 		a6.enterCvvNumber();
 //		ChromeOptions options=new ChromeOptions();
 //		options.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
-		
 		a6.continueWithOutSave_Btn();
-//		a6.useThisPaymentMethod();
-		
-
-		//		String actual=a4.addedToCartCartAssertion();
-		//		assertEquals(actual, "Added to Cart");
-
+		a6.useThisPaymentMethod();
+		assertTrue(a6.chooseDeleveryOptions());
 	}
 }
