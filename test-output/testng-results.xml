@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results retried="1" ignored="0" total="16" passed="15" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Test case Ppassed]]>
     </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Ppassed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-07-25T08:28:32 IST" name="Suite" finished-at="2024-07-25T08:29:08 IST" duration-ms="35681">
+  <suite started-at="2024-08-07T07:25:39 IST" name="Airline" finished-at="2024-08-07T07:35:16 IST" duration-ms="576457">
     <groups>
     </groups>
-    <test started-at="2024-07-25T08:28:32 IST" name="TestOnChrome" finished-at="2024-07-25T08:29:08 IST" duration-ms="35681">
-      <class name="Project1_Amazon.final_Project.TestCase15">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Project1_Amazon.final_Project.TestCase15@1af2d44a]" started-at="2024-07-25T08:28:32 IST" name="launch" finished-at="2024-07-25T08:28:44 IST" duration-ms="12116" status="PASS">
+    <test started-at="2024-08-07T07:25:39 IST" name="TestOnChrome" finished-at="2024-08-07T07:35:16 IST" duration-ms="576457">
+      <class name="airLine.final_Project2.TestCase10">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase10@2d52216b]" started-at="2024-08-07T07:30:29 IST" name="launch" finished-at="2024-08-07T07:30:44 IST" duration-ms="15208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,18 +63,444 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="productDetsils()[pri:0, instance:Project1_Amazon.final_Project.TestCase15@1af2d44a]" started-at="2024-07-25T08:28:44 IST" name="productDetsils" finished-at="2024-07-25T08:29:07 IST" duration-ms="22726" status="PASS">
+        <test-method signature="validations()[pri:0, instance:airLine.final_Project2.TestCase10@2d52216b]" started-at="2024-08-07T07:30:44 IST" name="validations" finished-at="2024-08-07T07:31:09 IST" duration-ms="25018" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case Ppassed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- productDetsils -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Project1_Amazon.final_Project.TestCase15@1af2d44a]" started-at="2024-07-25T08:29:08 IST" name="quit" finished-at="2024-07-25T08:29:08 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- validations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase10@2d52216b]" started-at="2024-08-07T07:31:10 IST" name="tearDown" finished-at="2024-08-07T07:31:10 IST" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- Project1_Amazon.final_Project.TestCase15 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase10 -->
+      <class name="airLine.final_Project2.TestCase11">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase11@242b836]" started-at="2024-08-07T07:31:10 IST" name="launch" finished-at="2024-08-07T07:31:26 IST" duration-ms="15673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validations2()[pri:0, instance:airLine.final_Project2.TestCase11@242b836]" started-at="2024-08-07T07:31:26 IST" name="validations2" finished-at="2024-08-07T07:31:53 IST" duration-ms="27649" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validations2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase11@242b836]" started-at="2024-08-07T07:31:54 IST" name="tearDown" finished-at="2024-08-07T07:31:54 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase11 -->
+      <class name="airLine.final_Project2.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase01@c88a337]" started-at="2024-08-07T07:25:39 IST" name="launch" finished-at="2024-08-07T07:26:10 IST" duration-ms="30586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="registration()[pri:0, instance:airLine.final_Project2.TestCase01@c88a337]" started-at="2024-08-07T07:26:10 IST" name="registration" finished-at="2024-08-07T07:26:15 IST" duration-ms="5384" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase01@c88a337]" started-at="2024-08-07T07:26:16 IST" name="tearDown" finished-at="2024-08-07T07:26:17 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase01 -->
+      <class name="airLine.final_Project2.TestCase12">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase12@3f6f6701]" started-at="2024-08-07T07:31:54 IST" name="launch" finished-at="2024-08-07T07:32:15 IST" duration-ms="20745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="loginSearCHLogout()[pri:0, instance:airLine.final_Project2.TestCase12@3f6f6701]" started-at="2024-08-07T07:32:15 IST" name="loginSearCHLogout" finished-at="2024-08-07T07:32:46 IST" duration-ms="30773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginSearCHLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase12@3f6f6701]" started-at="2024-08-07T07:32:46 IST" name="tearDown" finished-at="2024-08-07T07:32:46 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase12 -->
+      <class name="airLine.final_Project2.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase06@273e7444]" started-at="2024-08-07T07:27:52 IST" name="launch" finished-at="2024-08-07T07:28:09 IST" duration-ms="16571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method retried="true" signature="economyBussinessFirstClass()[pri:0, instance:airLine.final_Project2.TestCase06@273e7444]" started-at="2024-08-07T07:28:09 IST" name="economyBussinessFirstClass" finished-at="2024-08-07T07:28:12 IST" duration-ms="2883" status="SKIP">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=127.0.6533.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1464660bb4726f986900c8baf9b26dc, clickElement {id=f.A351064D41BBA862E5ECE675A1CF32FC.d.4930AE1543884B0D7AD093EE328052D7.e.363}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53021}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53021/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a1464660bb4726f986900c8baf9b26dc)] -> xpath: //div[@id='toautoFill']/ul/li[1]]
+Session ID: a1464660bb4726f986900c8baf9b26dc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=127.0.6533.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1464660bb4726f986900c8baf9b26dc, clickElement {id=f.A351064D41BBA862E5ECE675A1CF32FC.d.4930AE1543884B0D7AD093EE328052D7.e.363}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53021}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53021/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a1464660bb4726f986900c8baf9b26dc)] -> xpath: //div[@id='toautoFill']/ul/li[1]]
+Session ID: a1464660bb4726f986900c8baf9b26dc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at airLine.final_Project2.Search_Page.selectTo(Search_Page.java:46)
+at airLine.final_Project2.TestCase06.economyBussinessFirstClass(TestCase06.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- economyBussinessFirstClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase06@273e7444]" started-at="2024-08-07T07:28:12 IST" name="tearDown" finished-at="2024-08-07T07:28:12 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase06@273e7444]" started-at="2024-08-07T07:28:12 IST" name="launch" finished-at="2024-08-07T07:28:27 IST" duration-ms="14727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="economyBussinessFirstClass()[pri:0, instance:airLine.final_Project2.TestCase06@273e7444]" started-at="2024-08-07T07:28:27 IST" name="economyBussinessFirstClass" finished-at="2024-08-07T07:28:39 IST" duration-ms="12054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- economyBussinessFirstClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase06@273e7444]" started-at="2024-08-07T07:28:39 IST" name="tearDown" finished-at="2024-08-07T07:28:40 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase06 -->
+      <class name="airLine.final_Project2.TestCase07">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase07@7db12bb6]" started-at="2024-08-07T07:28:40 IST" name="launch" finished-at="2024-08-07T07:28:55 IST" duration-ms="14770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="multiCityFlight()[pri:0, instance:airLine.final_Project2.TestCase07@7db12bb6]" started-at="2024-08-07T07:28:55 IST" name="multiCityFlight" finished-at="2024-08-07T07:29:09 IST" duration-ms="14379" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiCityFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase07@7db12bb6]" started-at="2024-08-07T07:29:09 IST" name="tearDown" finished-at="2024-08-07T07:29:10 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase07 -->
+      <class name="airLine.final_Project2.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase08@73e9cf30]" started-at="2024-08-07T07:29:10 IST" name="launch" finished-at="2024-08-07T07:29:24 IST" duration-ms="14282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="seatSelection()[pri:0, instance:airLine.final_Project2.TestCase08@73e9cf30]" started-at="2024-08-07T07:29:24 IST" name="seatSelection" finished-at="2024-08-07T07:29:51 IST" duration-ms="26921" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- seatSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase08@73e9cf30]" started-at="2024-08-07T07:29:51 IST" name="tearDown" finished-at="2024-08-07T07:29:52 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase08 -->
+      <class name="airLine.final_Project2.TestCase09">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase09@771a660]" started-at="2024-08-07T07:29:52 IST" name="launch" finished-at="2024-08-07T07:30:10 IST" duration-ms="17712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="multiplePassengers()[pri:0, instance:airLine.final_Project2.TestCase09@771a660]" started-at="2024-08-07T07:30:10 IST" name="multiplePassengers" finished-at="2024-08-07T07:30:28 IST" duration-ms="18756" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplePassengers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase09@771a660]" started-at="2024-08-07T07:30:29 IST" name="tearDown" finished-at="2024-08-07T07:30:29 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase09 -->
+      <class name="airLine.final_Project2.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase02@72e5a8e]" started-at="2024-08-07T07:26:17 IST" name="launch" finished-at="2024-08-07T07:26:32 IST" duration-ms="15428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verifyLogin()[pri:0, instance:airLine.final_Project2.TestCase02@72e5a8e]" started-at="2024-08-07T07:26:32 IST" name="verifyLogin" finished-at="2024-08-07T07:26:37 IST" duration-ms="4441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase02@72e5a8e]" started-at="2024-08-07T07:26:37 IST" name="tearDown" finished-at="2024-08-07T07:26:38 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase02 -->
+      <class name="airLine.final_Project2.TestCase13">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase13@3527942a]" started-at="2024-08-07T07:32:46 IST" name="launch" finished-at="2024-08-07T07:33:09 IST" duration-ms="22739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateCoupon()[pri:0, instance:airLine.final_Project2.TestCase13@3527942a]" started-at="2024-08-07T07:33:09 IST" name="validateCoupon" finished-at="2024-08-07T07:33:35 IST" duration-ms="26299" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCoupon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase13@3527942a]" started-at="2024-08-07T07:33:36 IST" name="tearDown" finished-at="2024-08-07T07:33:36 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase13 -->
+      <class name="airLine.final_Project2.TestCase14">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase14@942a29c]" started-at="2024-08-07T07:33:36 IST" name="launch" finished-at="2024-08-07T07:33:51 IST" duration-ms="14758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="domestiCRoundTrip()[pri:0, instance:airLine.final_Project2.TestCase14@942a29c]" started-at="2024-08-07T07:33:51 IST" name="domestiCRoundTrip" finished-at="2024-08-07T07:34:02 IST" duration-ms="11521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- domestiCRoundTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase14@942a29c]" started-at="2024-08-07T07:34:03 IST" name="tearDown" finished-at="2024-08-07T07:34:04 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase14 -->
+      <class name="airLine.final_Project2.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase03@54e1c68b]" started-at="2024-08-07T07:26:38 IST" name="launch" finished-at="2024-08-07T07:26:53 IST" duration-ms="15134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login_usingInvalidCredentials()[pri:0, instance:airLine.final_Project2.TestCase03@54e1c68b]" started-at="2024-08-07T07:26:53 IST" name="login_usingInvalidCredentials" finished-at="2024-08-07T07:26:57 IST" duration-ms="4227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_usingInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase03@54e1c68b]" started-at="2024-08-07T07:26:57 IST" name="tearDown" finished-at="2024-08-07T07:26:58 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase03 -->
+      <class name="airLine.final_Project2.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase04@53aac487]" started-at="2024-08-07T07:26:58 IST" name="launch" finished-at="2024-08-07T07:27:13 IST" duration-ms="15097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="oneWayTrip()[pri:0, instance:airLine.final_Project2.TestCase04@53aac487]" started-at="2024-08-07T07:27:13 IST" name="oneWayTrip" finished-at="2024-08-07T07:27:24 IST" duration-ms="10777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase04@53aac487]" started-at="2024-08-07T07:27:24 IST" name="tearDown" finished-at="2024-08-07T07:27:25 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase04 -->
+      <class name="airLine.final_Project2.TestCase15">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase15@1ed6388a]" started-at="2024-08-07T07:34:04 IST" name="launch" finished-at="2024-08-07T07:34:20 IST" duration-ms="16452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validatePayments()[pri:0, instance:airLine.final_Project2.TestCase15@1ed6388a]" started-at="2024-08-07T07:34:20 IST" name="validatePayments" finished-at="2024-08-07T07:35:10 IST" duration-ms="50034" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePayments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase15@1ed6388a]" started-at="2024-08-07T07:35:15 IST" name="tearDown" finished-at="2024-08-07T07:35:16 IST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase15 -->
+      <class name="airLine.final_Project2.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airLine.final_Project2.TestCase05@52b1beb6]" started-at="2024-08-07T07:27:25 IST" name="launch" finished-at="2024-08-07T07:27:40 IST" duration-ms="14823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="roundTrip()[pri:0, instance:airLine.final_Project2.TestCase05@52b1beb6]" started-at="2024-08-07T07:27:40 IST" name="roundTrip" finished-at="2024-08-07T07:27:51 IST" duration-ms="11610" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Ppassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roundTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:airLine.final_Project2.TestCase05@52b1beb6]" started-at="2024-08-07T07:27:52 IST" name="tearDown" finished-at="2024-08-07T07:27:52 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airLine.final_Project2.TestCase05 -->
     </test> <!-- TestOnChrome -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Airline -->
 </testng-results>

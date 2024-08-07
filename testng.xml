@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Amazon" parallel="tests">
+<suite name="Airline" parallel="tests">
 	<listeners>
 		<listener class-name="resources.Listener" />
 	</listeners>
 	<test name="TestOnChrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Project1_Amazon.final_Project.TestCase01" />
-			<class name="Project1_Amazon.final_Project.TestCase02" />
-			<class name="Project1_Amazon.final_Project.TestCase03" />
-			<class name="Project1_Amazon.final_Project.TestCase04" />
-			<class name="Project1_Amazon.final_Project.TestCase05" />
-			<class name="Project1_Amazon.final_Project.TestCase06" />
-			<class name="Project1_Amazon.final_Project.TestCase07" />
-			<class name="Project1_Amazon.final_Project.TestCase08" />
-			<class name="Project1_Amazon.final_Project.TestCase09" />
-			<class name="Project1_Amazon.final_Project.TestCase10" />
-			<class name="Project1_Amazon.final_Project.TestCase11" />
-			<class name="Project1_Amazon.final_Project.TestCase12" />
-			<class name="Project1_Amazon.final_Project.TestCase13" />
-			<class name="Project1_Amazon.final_Project.TestCase14" />
-			<class name="Project1_Amazon.final_Project.TestCase15" />
+			<class name="airLine.final_Project2.TestCase01" />
+			<class name="airLine.final_Project2.TestCase02" />
+			<class name="airLine.final_Project2.TestCase03" />
+			<class name="airLine.final_Project2.TestCase04" />
+			<class name="airLine.final_Project2.TestCase05" />
+			<class name="airLine.final_Project2.TestCase06" />
+			<class name="airLine.final_Project2.TestCase07" />
+			<class name="airLine.final_Project2.TestCase08" />
+			<class name="airLine.final_Project2.TestCase09" />
+			<class name="airLine.final_Project2.TestCase10" />
+			<class name="airLine.final_Project2.TestCase11" />
+			<class name="airLine.final_Project2.TestCase12" />
+			<class name="airLine.final_Project2.TestCase13" />
+			<class name="airLine.final_Project2.TestCase14" />
+			<class name="airLine.final_Project2.TestCase15" />
 		</classes>
 	</test> <!--
 	Test -->

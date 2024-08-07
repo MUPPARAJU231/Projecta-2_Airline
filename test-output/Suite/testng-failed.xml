@@ -7,13 +7,13 @@
   <test thread-count="5" parallel="classes" name="TestOnChrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Project1_Amazon.final_Project.TestCase10">
+      <class name="airLine.final_Project2.TestCase02">
         <methods>
-          <include name="updateCartQuantity"/>
+          <include name="verifyLogin"/>
           <include name="launch"/>
-          <include name="quit"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Project1_Amazon.final_Project.TestCase10 -->
+      </class> <!-- airLine.final_Project2.TestCase02 -->
     </classes>
   </test> <!-- TestOnChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

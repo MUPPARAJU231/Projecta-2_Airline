@@ -18,7 +18,7 @@ import org.testng.annotations.Parameters;
 public class LaunchnQuit 
 {      
 	public static WebDriver driver;
-//	public static  String screenshotsSubFolderName;
+	public static  String screenshotsSubFolderName;
 	@BeforeMethod
 	@Parameters("browser")
 	public void launch(String nameofbrowser)
@@ -38,22 +38,22 @@ public class LaunchnQuit
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.easemytrip.com/");
 	}
 	@AfterMethod
-	public void quit()
+	public void tearDown()
 	{
 		driver.quit();
 	}
 
 	public void captureScreenShot(String fileName)
 	{
-//		if(screenshotsSubFolderName == null) 
-//		{
+		if(screenshotsSubFolderName == null) 
+		{
 		LocalDateTime myDateObj = LocalDateTime.now();
 	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("ddMMyyyyHHmmss");
-	  String  screenshotsSubFolderName = myDateObj.format(myFormatObj);
-//		}
+	    screenshotsSubFolderName = myDateObj.format(myFormatObj);
+		}
 		
 		TakesScreenshot t1= (TakesScreenshot) driver;
 		File source=t1.getScreenshotAs(OutputType.FILE);
