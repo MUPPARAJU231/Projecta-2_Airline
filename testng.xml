@@ -23,7 +23,5 @@
 			<class name="airLine.final_Project2.TestCase14" />
 			<class name="airLine.final_Project2.TestCase15" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Amazon -->
+	</test> 
+</suite>
